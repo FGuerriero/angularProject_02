@@ -14,7 +14,8 @@
   </button>
 
   <app-product-alerts 
-    [productAlert]="product">
+    [productAlert]="product"
+    (notify)="onNotify()">
   </app-product-alerts>
 
 </div>
